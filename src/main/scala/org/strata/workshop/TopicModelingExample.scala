@@ -103,10 +103,10 @@ object TopicModelingExample {
                     .setInputCol("ngrams")
                     .setOutputCol("features")
                     .setVocabSize(vocabSize)
-                    .fit(filteredTokens)
+                    .fit(ngram)
 
     val countVectors = cvModel
-                        .transform(filteredTokens)
+                        .transform(ngram)
                         .select("docId", "features")
 
     val lda = new LDA()
