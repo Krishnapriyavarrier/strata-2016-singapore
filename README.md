@@ -10,27 +10,27 @@ Java/JDK 1.7+ has to be installed on the laptop before proceeding with the steps
 
 ## Running in spark-shell
 
-### Download Spark 2.0.2
+### Download Spark 2.1.0
 
-Download Spark 2.0.2 from here : http://spark.apache.org/downloads.html
+Download Spark 2.1.0 from here : http://spark.apache.org/downloads.html
 
-Direct Download link : http://d3kbcqa49mib13.cloudfront.net/spark-2.0.2-bin-hadoop2.7.tgz
+Direct Download link : http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
 
-### Install Spark 2.0.2 on Mac
+### Install Spark 2.1.0 on Mac
 
-tar -zxvf spark-2.0.2-bin-hadoop2.7.tgz
+tar -zxvf spark-2.1.0-bin-hadoop2.7.tgz
 
-export PATH=$PATH:/Users/path_to_downloaded_spark/spark-2.0.2-bin-hadoop2.7/bin
+export PATH=$PATH:/Users/path_to_downloaded_spark/spark-2.1.0-bin-hadoop2.7/bin
 
 ### Running spark-shell on mac
 
 - spark-shell
 
-### Install Spark 2.0.2 on Windows
+### Install Spark 2.1.0 on Windows
 
-Unzip spark-2.0.2-bin-hadoop2.7.tgz
+Unzip spark-2.1.0-bin-hadoop2.7.tgz
 
-Add the spark bin directory to Path : ...\spark-2.0.2-bin-hadoop2.7\bin
+Add the spark bin directory to Path : ...\spark-2.1.0-bin-hadoop2.7\bin
 
 ### Set up winutils.exe on Windows (not needed on mac)
 
